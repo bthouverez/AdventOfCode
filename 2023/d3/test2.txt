@@ -1,0 +1,106 @@
+...............
+....467..114...
+.....abcde.....
+.....n356f.33..
+.....m357g.33..
+.....lkjih.....
+....617*.......
+.........+.58..
+......592......
+..........755..
+.......$.*.....
+.....664.598...
+...............
+<!--
+
+!! ATTENTION !!
+
+INTERDICTION DE MODIFIER CE FICHIER
+
+
+
+Travail à effectuer :
+	1. Ajoutez votre CV dans l'arborescence de fichiers de telle sorte à ce que le lien ci-dessous fonctionne sur votre cadre
+	2. Ajoutez votre photo de telle sorte à ce qu'elle apparaisse sur cette page, elle devra aussi apparaître sur votre CV
+	3. Sauvegardez l'avancée du projet dans un dépôt local
+	4. Modifiez la couleur de votre cadre pour votre couleur préférée
+	5. Proposez une pull request sur mon dépôt personnel du projet
+
+Et tout cela encore une fois SANS TOUCHER A CE FICHIER !
+
+ -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>SIO1 Promo 2021-2023</title>
+	<style>
+		body {
+			width:  75%;
+			margin: auto;
+		}
+
+		ul {
+			display:  flex;
+			flex-wrap: wrap;
+			list-style-type: none;
+		}
+
+		li {
+			width: 250px;
+			text-align: center;
+			margin-bottom: 15px;
+			text-decoration: underline;
+		}
+
+		img {
+			min-width: 200px;
+			min-height: 150px;
+			max-width: 250px;
+			max-height: 250px;
+			border:  5px solid black;
+			border-radius: 10px;
+			margin:  15px 15px 5px;
+		}
+
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+		<h1>2SIO Promo 2022-2024</h1>
+		<p>La promotion SIO 2022-2024 accueille 15 étudiants en deuxième année.</p>
+		<p>Le trombinoscope ci-dessous vous permet d'accéder à leur CV.</p>
+
+		<section>
+		<h2>L'enseignant</h2>
+		<ul>
+			<li><a href="/cv-Bastien.html"><img src="THOUVEREZ/photo.jpg" id="THOUVEREZ" alt="Photo THOUVEREZ Bastien"></a><br>THOUVEREZ Bastien</li>
+		</ul>
+		</section>
+
+		<section>
+		<h2>Les étudiants</h2>
+		<ul>
+			<li><a href="BACH/cv-Loris.html"><img src="BACH/photo.jpg" id="BACH" alt="Photo BACH Loris" /></a>BACH Loris </li>
+			<li><a href="BAUDOY/cv-Romain.html"><img src="BAUDOY/photo.jpg" id="BAUDOY" alt="Photo BAUDOY	Romain" /></a>BAUDOY	Romain </li>
+			<li><a href="BERNS/cv-Benjamin.html"><img src="BERNS/photo.jpg" id="BERNS" alt="Photo BERNS Benjamin" /></a>BERNS Benjamin </li>
+			<li><a href="BOISSIE/cv-Angel.html"><img src="BOISSIE/photo.jpg" id="BOISSIE" alt="Photo BOISSIE Angel" /></a>BOISSIE Angel </li>
+			<li><a href="FROMAGE/cv-Anthony.html"><img src="FROMAGE/photo.jpg" id="FROMAGE" alt="Photo FROMAGE Anthony" /></a>FROMAGE Anthony </li>
+			<li><a href="KACI/cv-Branis.html"><img src="KACI/photo.jpg" id="KACI" alt="Photo KACI Branis" /></a>KACI Branis </li>
+			<li><a href="KEBRITI/cv-Eddy.html"><img src="KEBRITI/photo.jpg" id="KEBRITI" alt="Photo KEBRITI Eddy" /></a>KEBRITI Eddy </li>
+			<li><a href="LARBI/cv-Ilias.html"><img src="LARBI/photo.jpg" id="LARBI" alt="Photo LARBI Ilias" /></a>LARBI Ilias </li>
+			<li><a href="MEUNIER/cv-Anthony.html"><img src="MEUNIER/photo.jpg" id="MEUNIER" alt="Photo MEUNIER Anthony" /></a>MEUNIER Anthony </li>
+			<li><a href="MRHIZER/cv-Mohamed-jessim.html"><img src="MRHIZER/photo.jpg" id="MRHIZER" alt="Photo MRHIZER Mohamed-jessim" /></a>MRHIZER Mohamed-jessim</li>
+			<li><a href="NEKKOUR/cv-Ayoub.html"><img src="NEKKOUR/photo.jpg" id="NEKKOUR" alt="Photo NEKKOUR Ayoub" /></a>NEKKOUR Ayoub </li>
+			<li><a href="NIDAM/cv-Mamoune.html"><img src="NIDAM/photo.jpg" id="NIDAM" alt="Photo NIDAM Mamoune" /></a>NIDAM Mamoune </li>
+			<li><a href="PICHON/cv-Luca.html"><img src="PICHON/photo.jpg" id="PICHON" alt="Photo PICHON Luca" /></a>PICHON Luca </li>
+			<li><a href="TRAN/cv-Quang Hieu.html"><img src="TRAN/photo.jpg" id="TRAN" alt="Photo TRAN Quang Hieu" /></a>TRAN Quang Hieu</li>
+			<li><a href="YAZBEK/cv-Rachel.html"><img src="YAZBEK/photo.jpg" id="YAZBEK" alt="Photo YAZBEK Rachel" /></a>YAZBEK Rachel </li>
+			</ul>
+		</section>
+	</section>
+</body>
+</html>
