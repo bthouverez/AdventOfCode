@@ -30,7 +30,9 @@ def part_one():
         print(eq[expected])
         bins = get_ops(len(eq[expected]) - 1)
         print(bins)
-
+        for ops in bins:
+            for ii in range(len(eq[expected])):
+                print(eq[expected][ii], ops[ii], eq[expected][ii+1])
         print()
 
 def part_two():
